@@ -1,0 +1,16 @@
+api: '2'
+
+core: 7.x
+
+projects:
+
+  drupal:
+    type: 'core'
+    version: '7.39'
+
+  redhen_dev:
+    type: 'profile'
+    download:
+      type: 'git'
+      branch: 'simple'
+      url: https://github.com/thinkshout/redhen_dev.git
