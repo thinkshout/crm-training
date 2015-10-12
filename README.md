@@ -10,6 +10,7 @@ This guide will help you quickly build your Drupal site with all of the CRM modu
   2. Download and install [Vagrant](http://www.vagrantup.com/downloads.html). If are you using Homebrew, `brew cask install vagrant`.
   3. For Vagrant to automatically configure your hosts file, install the `hostsupdater` plugin (`vagrant plugin install vagrant-hostsupdater`). All hosts defined in `apache_vhosts` or `nginx_hosts` will be automatically managed.
   4. For Vagrant to automatically assign an available IP address to your VM, install the `auto_network` plugin (`vagrant plugin install vagrant-auto_network`), and set `vagrant_ip` to `0.0.0.0` inside `config.yml`.
+  5. Ensure that GitHub.com and drupal.org are added to your `known_hosts` file. The setup process will copy over your host OS known hosts to the guest OS in order to avoid the interactive prompt when doing a git checkout that will hang the provisioning process.
 
 Note for Faster Provisioning (Mac/Linux only): *[Install Ansible](http://docs.ansible.com/intro_installation.html) on your host machine, so Drupal VM can run the provisioning steps locally instead of inside the VM.* For Homebrewers, `brew install ansible`.
 
