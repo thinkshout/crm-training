@@ -1,3 +1,5 @@
+![Build Status](https://travis-ci.org/thinkshout/crm-training.svg)
+
 ThinkShout's virtual environment for CRM Trainings based on [Drupal VM](http://www.drupalvm.com/), a VM for local Drupal development, built with Vagrant + Ansible. It should take 5-10 minutes to build or rebuild the VM from scratch on a decent broadband connection.
 
 ## Installation
