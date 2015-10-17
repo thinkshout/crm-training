@@ -6,9 +6,9 @@ projects:
 
   drupal:
     type: 'core'
-    version: '7.39'
+    version: '7.40'
 
-  redhen_dev:
+  redhen_training:
     type: 'profile'
     download:
       type: 'git'
