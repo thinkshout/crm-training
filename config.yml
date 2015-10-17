@@ -48,7 +48,7 @@ drupal_major_version: 7
 drupal_core_path: "/var/www/drupal"
 drupal_domain: "drupal-crm.dev"
 drupal_site_name: "Drupal CRM Training"
-drupal_install_profile: redhen_dev
+drupal_install_profile: redhen_training
 drupal_enable_modules: [ ]
 drupal_account_name: admin
 drupal_account_pass: admin
