@@ -40,4 +40,4 @@ Note: *If there are any errors during the course of running `vagrant up`, and it
   - When you rebuild the VM (e.g. `vagrant destroy` and then another `vagrant up`), make sure you clear out the contents of the `drupal` folder on your host machine, or Drupal will return some errors when the VM is rebuilt (it won't reinstall Drupal cleanly).
   - You can change the installed version of Drupal or drush, or any other configuration options, by editing the variables within `config.yml`.
   - Access your virtual machine and manage your site direclty by executing `vagrant ssh` from the project root.
-  - You can also use Drush aliases to directly interact with your site. Aliases are automatically configured. So just using `drush @drupalvm.drupalvm.dev [command]`.
+  - You can also use Drush aliases to directly interact with your site. Aliases are automatically configured. So just using `drush @drupal-crm.drupal-crm.dev [command]`.
