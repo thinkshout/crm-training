@@ -6,7 +6,7 @@ projects:
 
   drupal:
     type: 'core'
-    version: '7.40'
+    version: '7.41'
 
   redhen_training:
     type: 'profile'
