@@ -14,3 +14,4 @@ projects:
       type: 'git'
       branch: 'master'
       url: https://github.com/thinkshout/redhen_training.git
+      working-copy: true
