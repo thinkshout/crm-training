@@ -25,7 +25,7 @@ Note on versions: *Please make sure you're running the latest stable version of 
   1. Download this project and put it wherever you want.
   3. By default, your local files will be located at `~/Sites/drupal-crm`. If you want to use a different location, create the local directory and configure the path to that directory in `config.yml` (`local_path`, inside `vagrant_synced_folders`).
   4. Open Terminal, cd to this directory (containing the `Vagrantfile` and this README file).
-  5. **IMPORTANT:** If you have Ansible installed on your host machine: Run `$ sudo ansible-galaxy install -r provisioning/requirements.yml --force` prior to step 5 (`vagrant up`), otherwise Ansible will complain about missing roles.
+  5. **IMPORTANT:** If you have Ansible installed on your host machine: Run `$ ansible-galaxy install -r provisioning/requirements.yml --force` prior to step 5 (`vagrant up`), otherwise Ansible will complain about missing roles.
   5. Type in `vagrant up`, and let Vagrant do its magic.
 
 Note: *If there are any errors during the course of running `vagrant up`, and it drops you back to your command prompt, just run `vagrant provision` to continue building the VM from where you left off. If there are still errors after doing this a few times, post an issue to this project's issue queue on GitHub with the error.*
