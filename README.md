@@ -41,4 +41,12 @@ Note: *If there are any errors during the course of running `vagrant up`, and it
   - You can change the installed version of Drupal or drush, or any other configuration options, by editing the variables within `config.yml`.
   - Access your virtual machine and manage your site direclty by executing `vagrant ssh` from the project root.
   - You can also use Drush aliases to directly interact with your site. Aliases are automatically configured. So just using `drush @drupal-crm.drupal-crm.dev [command]`.
-  - To fully rebuild your site by running drush make again `vagrant ssh;sudo rm -rf /var/www/drupal;mysqladmin -udrupal -pdrupal drop drupal;vagrant provision`
+  - To fully rebuild your site by running drush make again:
+  
+```
+vagrant ssh
+sudo rm -rf /var/www/drupal
+mysqladmin -udrupal -pdrupal drop drupal
+exit
+vagrant provision
+```
