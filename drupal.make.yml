@@ -12,6 +12,6 @@ projects:
     type: 'profile'
     download:
       type: 'git'
-      branch: 'master'
+      branch: 'native-redhen'
       url: https://github.com/thinkshout/redhen_training.git
       working-copy: true
