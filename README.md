@@ -46,6 +46,7 @@ Note: *If there are any errors during the course of running `vagrant up`, and it
 ```
 vagrant ssh
 sudo rm -rf /var/www/drupal
+mysqladmin -udrupal -pdrupal drop drupal
 exit
 vagrant provision
 ```
